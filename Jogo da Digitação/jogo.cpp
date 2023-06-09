@@ -175,6 +175,7 @@ struct Game{
             this->uptade = [&](){
                 this->gameover(); 
             };
+            board.misses = 0;
         }
     }
 
