@@ -1,0 +1,4 @@
+Trequinhos 
+g++ teste.cpp -o teste.o -Wall -Werror -lsfml-graphics -lsfml-window -lsfml-system
+g++ -IC:\SFML-2.5.1\include -c teste.cpp -o teste.o  
+g++ -LC:\SFML-2.5.1\lib .\teste.o -o app.exe -lmingw32 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-main -mwindows
